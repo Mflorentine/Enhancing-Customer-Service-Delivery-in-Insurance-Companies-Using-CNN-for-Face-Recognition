@@ -1,12 +1,21 @@
-tensorflow
-mtcnn
-keras
-keras-vggface
-keras_applications
-PyYAML
-tqdm
-scikit-learn
-streamlit
-bing-image-downloader
+python==3.10
+
+
+# Core ML stack pinned to match keras_vggface
+tensorflow==2.11.1
+keras==2.11.0
+keras-vggface==0.6
+keras-applications==1.0.8
+
+# Your other deps (versions that play nicely with TF 2.11)
+numpy==1.23.5
+pillow>=9.5
+scikit-learn>=1.2
+mtcnn==0.1.1
+
+streamlit>=1.30
+opencv-python-headless>=4.7
+
+
 
 
