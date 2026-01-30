@@ -9,7 +9,4 @@ model = VGGFace(model=model_name, include_top=include_tops,
 feature_list = pickle.load(open(features_name,'rb'))
 filenames = pickle.load(open(pickle_file,'rb'))
 
-detector = MTCNN()
-# Remove the VGGFace model construction entirely
-feature_list = pickle.load(open(features_name,'rb'))
-filenames = pickle.load(open(pickle_file,'rb'))
+
