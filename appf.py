@@ -7,7 +7,7 @@ Date:12-July-2022
 # from curses.textpad import rectangle
 from pyexpat import features
 from typing import AsyncGenerator
-from keras_vggface.utils import preprocess_input
+#from keras_vggface.utils import preprocess_input
 from keras_vggface.vggface import VGGFace
 from sklearn.feature_extraction import img_to_graph
 from src.utils.all_utils import read_yaml, create_directory
@@ -1041,4 +1041,5 @@ def main():
 
 if __name__== '__main__':
     main()
+
 
